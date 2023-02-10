@@ -1,0 +1,109 @@
+<resources>
+    <string name="app_name">TextEditing</string>
+    <string name="app_version" translatable="false">V1.0.0</string>
+    <string name="app_copyright" translatable="false">Copyright © 2022 <a href='http://www.coolapk.com/u/1180726'>CanDyenK</a> All Rights Reserved</string>
+    <string name="app_menu">Menu</string>
+    <string name="app_back">Back</string>
+    <string name="app_multiplechoice">multiple Choice</string>
+    <string name="app_inverseselection">Inverse Selection</string>
+    <string name="app_import">Import</string>
+    <string name="app_delete">Delete</string>
+    <string name="app_sift">Sift</string>
+    <string name="app_sort">Sort</string>
+    <string name="app_flush">Flush</string>
+    <string name="app_clear">Clear</string>
+    <string name="app_reset">Reset</string>
+    <string name="app_sort_time">Sort By Time</string>
+    <string name="app_sort_time_r">Sort Backwards In Time</string>
+    <string name="act_plugin_manager">Plugin Manager</string>
+    <string name="act_log_manager">Log Manager</string>
+    <string name="act_nimble">Nimble Card</string>
+    <string name="act_about">About</string>
+    <string name="home_page_add">Add Your First Plugin</string>
+    <string name="home_page_system">System Plugin</string>
+    <string name="home_page_user">User Plugin</string>
+    <string name="home_page_setting">Setting</string>
+    <string name="home_page_item_count">Number of function bar columns</string>
+    <string name="home_page_item_count_msg">Number of items that can be displayed in single line function bar.</string>
+    <string name="home_page_item_clear">Clean Cache</string>
+    <string name="home_page_item_clear_msg">Clean up the cache files that are not cleaned up in time by APP and plug-ins.</string>
+    <string name="home_page_item_plugin" translatable="false">@string/act_plugin_manager</string>
+    <string name="home_page_item_plugin_msg">Manage User Plugins.</string>
+    <string name="home_page_item_log" translatable="false">@string/act_log_manager</string>
+    <string name="home_page_item_log_msg">Running logs of apps and plug-ins.</string>
+    <string name="home_page_item_log_level">Log level</string>
+    <string name="home_page_item_play">Play</string>
+    <string name="home_page_item_play_msg">Play with that nimble card</string>
+    <string name="home_page_item_about" translatable="false">@string/act_about</string>
+    <string name="home_page_item_about_msg">Stories behind the APP.</string>
+    <string name="home_empty_content">Empty Content</string>
+    <string name="home_empty_clip">Empty Clipboard</string>
+    <string name="home_copy">Copy:</string>
+    <string name="home_paste">Paste:</string>
+    <string name="home_hint_inout">Please enter the text to be processed:</string>
+    <string name="home_hint_output">Display processing completion text:</string>
+    <string name="home_sift_label">Label</string>
+    <string name="home_sift_level">Level</string>
+    <string name="home_info_empty">Empty</string>
+    <string name="home_info_invert">Invert Intput And Output</string>
+    <string name="home_info_copy">Copy Output</string>
+    <string name="home_info_paste">Paste Into Input</string>
+    <string name="home_clear_up">Cleaning Up…</string>
+    <string name="home_clear_cancel">This operation cannot be terminated!</string>
+    <string name="home_clear_end">End of cleaning!</string>
+    <string name="home_clear_end_msg">Delete %s files and %s folders in total, and free %s of space.</string>
+    <string name="about_last_words">The Last Poetry</string>
+    <string name="about_open_source">About Open Source</string>
+    <string name="plugin_label_apk" translatable="false">Apk</string>
+    <string name="plugin_label_lua" translatable="false">Lua</string>
+    <string name="plugin_label_sys">System</string>
+    <string name="plugin_label_user">User</string>
+    <string name="plugin_info">Plugin Info</string>
+    <string name="plugin_update">Plugin Update</string>
+    <string name="plugin_delete_now">Delete Plugin:</string>
+    <string name="plugin_delete_confirm">Confirm?</string>
+    <string name="plugin_deleting">Deleting…</string>
+    <string name="plugin_deleted">Deleted!</string>
+    <string name="plugin_importing">Importing…</string>
+    <string name="plugin_import_file_name">File Name:</string>
+    <string name="plugin_import_file_size">File Size:</string>
+    <string name="plugin_import_ok">Import Success!</string>
+    <string name="plugin_import_fail">Import Failed!</string>
+    <string name="plugin_import_fail_type">Type Exception!</string>
+    <string name="plugin_import_fail_size">Too Big File!</string>
+    <string name="plugin_import_fail_msg">For detailed reasons, check the logs!</string>
+    <string name="plugin_update_ok">Update Success!</string>
+    <string name="plugin_basic_info">Basic Info</string>
+    <string name="plugin_run_info">Run Info</string>
+    <string name="plugin_name">Name:</string>
+    <string name="plugin_api" translatable="false">API:</string>
+    <string name="plugin_uuid" translatable="false">UUID:</string>
+    <string name="plugin_version">Version:</string>
+    <string name="plugin_author">Author:</string>
+    <string name="plugin_create_time">Create Time:</string>
+    <string name="plugin_update_time">Update Time:</string>
+    <string name="plugin_describe">Describe:</string>
+    <string name="plugin_size">Size:</string>
+    <string name="plugin_cache_size">Cache Size:</string>
+    <string name="plugin_files_size">Files Size:</string>
+    <string name="plugin_firstinstall">First Install Time:</string>
+    <string name="plugin_lastupdate">Last Update Time:</string>
+    <string name="plugin_opencount">Open Count:</string>
+    <string name="plugin_errorcount">Error Count:</string>
+    <string name="log_detail">Log Detail</string>
+    <string name="log_read">Reading…</string>
+    <string name="log_source">Source:</string>
+    <string name="log_level">Level:</string>
+    <string name="log_time">Time:</string>
+    <string name="log_msg">Msg:</string>
+    <string name="log_stackmsg">Stack Msg</string>
+    <string name="log_logmsg">Log Msg</string>
+    <string name="log_empty">Empty Log!</string>
+    <string name="log_show_now">%d Logs Will Be Displayed.</string>
+    <string name="log_clean_confirm">ConFirm The Emptying?</string>
+    <string name="log_clean_now">%d Logs Will Be Deleted.</string>
+    <string name="log_clean_up">Cleaning Up…</string>
+    <string name="log_clean_success">Cleanup Successful!</string>
+    <string name="log_clean_fail">Cleanup Failed!</string>
+    <string name="log_clean_fail_msg">Cleanup failed,Please try again later.</string>
+</resources>

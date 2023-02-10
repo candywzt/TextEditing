@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:elevation="0dp"
+        app:cardBackgroundColor="@color/back_group"
+        app:cardCornerRadius="20dp">
+    <androidx.core.widget.NestedScrollView
+            style="@style/CDK.RecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <LinearLayout
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:orientation="vertical">
+            <View
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"/>
+            <candyenk.android.widget.ItemSeekBar
+                    android:id="@+id/count_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:title="@string/home_page_item_count"
+                    android:summary="@string/home_page_item_count_msg"
+                    android:max="6"
+                    android:min="3"/>
+            <candyenk.android.widget.Item
+                    android:id="@+id/clear_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:title="@string/home_page_item_clear"
+                    android:summary="@string/home_page_item_clear_msg"/>
+            <candyenk.android.widget.Item
+                    android:id="@+id/plugin_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:title="@string/home_page_item_plugin"
+                    android:summary="@string/home_page_item_plugin_msg"/>
+            <candyenk.android.widget.Item
+                    android:id="@+id/log_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:title="@string/home_page_item_log"
+                    android:summary="@string/home_page_item_log_msg"/>
+            <candyenk.android.widget.Item
+                    android:id="@+id/loglevel_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:title="@string/home_page_item_log_level"
+                    android:summary="Info"/>
+            <candyenk.android.widget.Item
+                    android:id="@+id/about_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:title="@string/home_page_item_about"
+                    android:summary="@string/home_page_item_about_msg"/>
+            <candyenk.android.widget.Item
+                    android:id="@+id/play_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:title="@string/home_page_item_play"
+                    android:summary="@string/home_page_item_play_msg"/>
+            <View
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"/>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+    <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:paddingStart="10dp"
+            android:textColor="@color/text_main"
+            android:text="@string/home_page_setting"
+            android:textSize="24sp"
+            tools:ignore="RtlSymmetry"/>
+
+
+</com.google.android.material.card.MaterialCardView>
+

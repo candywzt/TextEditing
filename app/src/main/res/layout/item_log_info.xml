@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+    <LinearLayout
+            android:id="@+id/back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="4dp"
+            android:gravity="center">
+        <ImageView
+                android:id="@+id/icon"
+                android:layout_width="88dp"
+                android:layout_height="84dp"
+                android:padding="4dp"
+                android:paddingEnd="8dp"
+                tools:ignore="RtlSymmetry"/>
+        <TextView
+                android:id="@+id/content"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/error"/>
+    </LinearLayout>
+    <candyenk.android.view.LabelView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:gravity="center_horizontal"
+            android:text="@string/log_logmsg"/>
+    <TextView
+            android:id="@+id/msg"
+            android:padding="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/error"/>
+    <candyenk.android.view.LabelView
+            android:id="@+id/log_stack_msg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/log_stackmsg"/>
+
+</LinearLayout>

@@ -1,0 +1,54 @@
+plugins {
+    id 'com.android.library'
+}
+
+android {
+    compileSdk 33
+    buildToolsVersion '33.0.1'
+
+    defaultConfig {
+        minSdk 24
+        targetSdkVersion 33
+        consumerProguardFiles "consumer-rules.pro"
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    signingConfigs {
+        config {
+            v1SigningEnabled true
+            v2SigningEnabled true
+            enableV3Signing true
+            enableV4Signing true
+        }
+    }
+    lintOptions {
+        checkReleaseBuilds false
+        abortOnError false
+    }
+}
+
+dependencies {
+    api 'com.google.code.gson:gson:2.10'//Gson
+    api 'com.google.android.material:material:1.6.1'//googleMD
+    api 'com.squareup.okio:okio:3.2.0'//okhttp
+    api 'com.squareup.okhttp3:okhttp:5.0.0-alpha.8'//okhttp
+    api 'org.luaj:luaj-jse:3.0.1'//Luaj
+    api project(':libs-android')
+}
+task sourcesJar(type: Jar) {
+    classifier = 'sources'
+    from android.sourceSets.main.java.sourceFiles
+    zip64 true
+    archiveClassifier.set('')//分类?
+    archiveBaseName.set('sources')//指定jar名字
+    archiveVersion.set('')//版本
+}

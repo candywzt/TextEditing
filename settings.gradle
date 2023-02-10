@@ -1,0 +1,13 @@
+rootProject.name = 'TextEditing'
+include ':libs-java'
+include ':libs-android'
+include ':api'
+include ':app'
+include ':plugin-ead'
+include ':plugin-repeat'
+include ':plugin-replace'
+include ':plugin-statistical'
+include ':plugin-demo'
+
+
+
